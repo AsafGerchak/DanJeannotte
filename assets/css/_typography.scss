@@ -1,0 +1,63 @@
+// VARIABLES!
+
+$main: #3E2A0D;
+
+$mainDarker: #211708;
+$mainDarkest: #1d1407;
+
+$mainLighter: #5F4015;
+$mainLightest: #845614;
+
+
+body {
+	font-size: 20px;
+	color: $main;
+}
+
+h1, h2 {
+	font-family: 'Hind', sans-serif;
+	font-weight: 300;
+}
+
+h3, p {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	// color: #aaa;
+	// color: #33240D;
+	color: #000;
+	font-size: 6.5em;
+	line-height: 1;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	// text-shadow: 0 0 2px #111;
+}
+
+h2 {
+	font-size: 1.65em;
+	line-height: 1.3;
+	letter-spacing: 0.8px;
+}
+
+h3 {
+	font-size: 1.4em;
+	letter-spacing: 1px;
+}
+
+p {
+	// font-family: 'Cabin', sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.4px;
+}
+
+a {
+	text-decoration: none;
+	color: $main;
+	transition: color 0.4s;
+
+	&:hover {
+		color: $mainLightest;
+	}
+}

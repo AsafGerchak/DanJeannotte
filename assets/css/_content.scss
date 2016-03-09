@@ -1,0 +1,79 @@
+body {
+	background: linear-gradient(rgba(200, 200, 200, 0.10) 65%, rgba(200, 200, 200, 0.2) 75%), url("../images/hero03.jpg") 150px top no-repeat;
+	background-size: 120%;
+	background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	z-index: 1;
+	right: 40px;
+	bottom: 10px;
+	// width: calc(100% - 80px);
+	width: 90%;
+	text-align: right;
+}
+
+section {
+	width: 40%;
+	padding: 50px 5% 190px 5%;
+	background: #fff;
+
+	h2 {
+		margin-bottom: 25px;
+	}
+
+	.contentCover {
+		width: 40%;
+		height: 170px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0) 100%);
+	} // .contentCover
+
+} // section
+
+
+.social {
+	margin-bottom: 70px;
+
+	.socialLink {
+		display: block;
+		margin-left: 20px;
+		margin: 0 0 20px 20px;
+
+		svg,
+		h3 {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		svg {
+			width: 90px;
+			height: auto;
+			margin-right: 20px;
+			fill: $mainDarker;
+			transition: fill 0.4s;
+		}
+
+		&:hover svg {
+			fill: $mainLighter;
+		}
+
+	} // .socialLink
+
+} // .social
+
+
+.representation {
+
+	.contact {
+		margin: 0 0 30px 20px;
+
+		p:first-child {
+			font-weight: 600;
+		}
+	} // .contact
+
+} // .representation
