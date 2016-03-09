@@ -1,7 +1,7 @@
 @import "_compere";
 
 body {
-	background: linear-gradient(rgba(200, 200, 200, 0.10), rgba(200, 200, 200, 0.10)), url("../images/hero03.jpg") 150px top no-repeat;
+	background: linear-gradient(rgba(200, 200, 200, 0.10) 65%, rgba(200, 200, 200, 0.2) 75%), url("../images/hero03.jpg") 150px top no-repeat;
 	background-size: 120%;
 	background-attachment: fixed;
 	font-size: 20px;
@@ -14,13 +14,14 @@ h1, h3 {
 }
 
 h1 {
-	color: #aaa;
+	// color: #aaa;
 	// color: #33240D;
+	color: #000;
 	font-size: 6.5em;
 	line-height: 1;
 	letter-spacing: 10px;
 	text-transform: uppercase;
-	text-shadow: 0 0 2px #111;
+	// text-shadow: 0 0 2px #111;
 }
 
 h3 {
@@ -40,7 +41,8 @@ header {
 	z-index: 1;
 	right: 40px;
 	bottom: 10px;
-	width: calc(100% - 80px);
+	// width: calc(100% - 80px);
+	width: 90%;
 	text-align: right;
 }
 

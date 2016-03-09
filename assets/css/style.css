@@ -154,8 +154,8 @@ td, th {
   clear: both; }
 
 body {
-  background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1)), url("../images/hero03.jpg") 150px top no-repeat;
-  background: linear-gradient(rgba(200, 200, 200, 0.1), rgba(200, 200, 200, 0.1)), url("../images/hero03.jpg") 150px top no-repeat;
+  background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.2) 75%), url("../images/hero03.jpg") 150px top no-repeat;
+  background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.2) 75%), url("../images/hero03.jpg") 150px top no-repeat;
   background-size: 120%;
   background-attachment: fixed;
   font-size: 20px;
@@ -166,12 +166,11 @@ h1, h3 {
   font-weight: 300; }
 
 h1 {
-  color: #aaa;
+  color: #000;
   font-size: 6.5em;
   line-height: 1;
   letter-spacing: 10px;
-  text-transform: uppercase;
-  text-shadow: 0 0 2px #111; }
+  text-transform: uppercase; }
 
 h3 {
   font-size: 1.5em;
@@ -188,8 +187,7 @@ header {
   z-index: 1;
   right: 40px;
   bottom: 10px;
-  width: -webkit-calc(100% - 80px);
-  width: calc(100% - 80px);
+  width: 90%;
   text-align: right; }
 
 section {
