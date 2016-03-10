@@ -18,7 +18,7 @@ h1, h2 {
 	font-weight: 300;
 }
 
-h3, p {
+h3, h6, p {
 	font-family: 'Cabin', sans-serif;
 	font-weight: 400;
 }
@@ -40,6 +40,11 @@ h2 {
 h3 {
 	font-size: 1.4em;
 	letter-spacing: 1px;
+}
+
+h6 {
+	font-size: 0.7em;
+	letter-spacing: 0.2px;
 }
 
 p {
