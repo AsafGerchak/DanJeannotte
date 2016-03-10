@@ -61,3 +61,54 @@ a {
 		color: $mainLightest;
 	}
 }
+
+
+
+/* =================================
+====================================
+Media Queries */
+
+@media (max-width: 1250px) {
+
+	body {
+		font-size: 19px;
+	}
+
+	h1 {
+		letter-spacing: 6px;
+	}
+
+} // @media (max-width: 1250px)
+
+
+@media (max-width: 1000px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	h3 {
+		letter-spacing: 0.8px;
+	}
+
+} // @media (max-width: 1000px)
+
+
+@media (max-width: 650px) {
+
+	h1 {
+		font-size: 3em;
+		letter-spacing: 5px;
+	}
+
+} // @media (max-width: 650px)
+
+
+@media (max-width: 450px) {
+
+	h1 {
+		font-size: 2em;
+		letter-spacing: 3px;
+	}
+
+} // @media (max-width: 450px)
