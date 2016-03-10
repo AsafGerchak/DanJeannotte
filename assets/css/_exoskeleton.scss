@@ -7,10 +7,8 @@ body {
 header {
 	position: fixed;
 	z-index: 1;
-	// right: 40px;
 	right: 5%;
 	bottom: 10px;
-	// width: calc(100% - 80px);
 	width: 90%;
 	text-align: right;
 }
@@ -54,10 +52,6 @@ Media Queries */
 @media (max-width: 1000px) {
 
 	body {
-		// background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -160px top no-repeat;
-		// background-size: 190%;
-		// background-attachment: fixed;
-
 		background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px -100px no-repeat;
 		background-size: 205%;
 		background-attachment: fixed;
@@ -65,7 +59,6 @@ Media Queries */
 	
 	section {
 		width: 45%;
-		// padding: 50px 4% 160px 4%;
 		padding: 35px 3.5% 130px 3.5%;
 
 		h2 {

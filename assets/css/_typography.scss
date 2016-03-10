@@ -3,7 +3,6 @@
 $main: #3E2A0D;
 
 $mainDarker: #211708;
-$mainDarkest: #1d1407;
 
 $mainLighter: #5F4015;
 $mainLightest: #845614;
@@ -25,14 +24,11 @@ h3, p {
 }
 
 h1 {
-	// color: #aaa;
-	// color: #33240D;
 	color: #000;
 	font-size: 6.5em;
 	line-height: 1;
 	letter-spacing: 10px;
 	text-transform: uppercase;
-	// text-shadow: 0 0 2px #111;
 }
 
 h2 {
@@ -47,7 +43,6 @@ h3 {
 }
 
 p {
-	// font-family: 'Cabin', sans-serif;
 	line-height: 1.5;
 	letter-spacing: 0.4px;
 }
