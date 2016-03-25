@@ -9,25 +9,26 @@ $mainLightest: #845614;
 
 
 body {
+	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	color: $main;
 }
 
-h1, h2 {
-	font-family: 'Hind', sans-serif;
+h2 {
+	// font-family: 'Hind', sans-serif;
 	font-weight: 300;
 }
 
-h3, h6, p {
-	font-family: 'Cabin', sans-serif;
+h1, h3, h6, p {
+	// font-family: 'Cabin', sans-serif;
 	font-weight: 400;
 }
 
 h1 {
 	color: #000;
-	font-size: 6.5em;
+	font-size: 5.5em;
 	line-height: 1;
-	letter-spacing: 10px;
+	letter-spacing: 7px;
 	text-transform: uppercase;
 }
 
