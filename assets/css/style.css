@@ -337,6 +337,8 @@ Media Queries */
   .content .socialLink {
     display: block;
     margin: 0 0 20px 20px; }
+    .content .socialLink:last-child {
+      margin-top: 30px; }
     .content .socialLink svg,
     .content .socialLink h3 {
       display: inline-block;
@@ -380,6 +382,8 @@ Media Queries */
     margin-bottom: 40px; }
     .content .socialLink {
       margin: 0 0 15px 0; }
+      .content .socialLink:last-child {
+        margin-top: 20px; }
       .content .socialLink svg {
         width: 45px; }
     .content .contact {

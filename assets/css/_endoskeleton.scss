@@ -5,6 +5,10 @@
 		display: block;
 		margin: 0 0 20px 20px;
 
+		&:last-child {
+			margin-top: 30px;
+		}
+
 		svg,
 		h3 {
 			display: inline-block;
@@ -86,6 +90,10 @@ Media Queries */
 		
 		.socialLink {
 			margin: 0 0 15px 0;
+
+			&:last-child {
+				margin-top: 20px;
+			}
 
 			svg {
 				width: 45px;
