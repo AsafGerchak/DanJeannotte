@@ -7,23 +7,25 @@ body {
 header {
 	position: fixed;
 	z-index: 1;
-	left: 0;
-	bottom: 30px;
-	width: 100%;
-	// text-align: right;
+	left: 40%;
+	bottom: 0;
+	width: 60%;
+	padding: 20px;
+	text-align: right;
+	background: linear-gradient(to top,rgba(255,255,255,0.15) 0,rgba(255,255,255,0.15) 70%,rgba(255,255,255,0) 100%);
 
-	h1 {
-		position: absolute;
-		bottom: 0;
+	// h1 {
+	// 	position: absolute;
+	// 	bottom: 0;
 
-		&:first-child {
-			right: 61%;
-		}
+	// 	&:first-child {
+	// 		right: 61%;
+	// 	}
 
-		&:last-child {
-			left: 41%;
-		}
-	} // h1
+	// 	&:last-child {
+	// 		left: 41%;
+	// 	}
+	// } // h1
 
 } // header
 
@@ -37,14 +39,15 @@ section {
 		margin-bottom: 25px;
 	}
 
-	.contentCover {
-		width: 40%;
-		height: 170px;
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0) 100%);
-	} // .contentCover
+	// === BELOW: The semi=transparent section over the bottom of the content when the header covered it!
+	// .contentCover {
+	// 	width: 40%;
+	// 	height: 170px;
+	// 	position: fixed;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0) 100%);
+	// } // .contentCover
 
 } // section
 
@@ -72,15 +75,18 @@ Media Queries */
 	}
 
 	header {
-		h1 {
-			&:first-child {
-				right: 56%;
-			}
+		left: 45%;
+		width: 55%;
 
-			&:last-child {
-				left: 46%;
-			}
-		} // h1
+		// h1 {
+		// 	&:first-child {
+		// 		right: 56%;
+		// 	}
+
+		// 	&:last-child {
+		// 		left: 46%;
+		// 	}
+		// } // h1
 	} //header
 	
 	section {
@@ -91,10 +97,10 @@ Media Queries */
 			text-align: center;
 		}
 
-		.contentCover {
-			width: 45%;
-			height: 140px;
-		}
+		// .contentCover {
+		// 	width: 45%;
+		// 	height: 140px;
+		// }
 	} // section
 
 } // @media (max-width: 1000px)
@@ -127,11 +133,11 @@ Media Queries */
     background: rgba(255, 255, 255, 0.41);
     text-align: center;
 
-    h1 {
-    	position: static;
-    	display: inline-block;
-    	width: auto;
-    }
+    // h1 {
+    // 	position: static;
+    // 	display: inline-block;
+    // 	width: auto;
+    // }
 	}
 
 	section {
@@ -142,9 +148,9 @@ Media Queries */
 			margin-bottom: 20px;
 		}
 
-		.contentCover {
-			display: none;
-		}
+		// .contentCover {
+		// 	display: none;
+		// }
 	} // section
 
 } // @media (max-width: 650px)

@@ -166,7 +166,7 @@ h1, h3, h6, p {
 
 h1 {
   color: #000;
-  font-size: 5.5em;
+  font-size: 4.8em;
   line-height: 1;
   letter-spacing: 7px;
   text-transform: uppercase; }
@@ -204,7 +204,7 @@ Media Queries */
   body {
     font-size: 19px; }
   h1 {
-    font-size: 4.8em;
+    font-size: 4.4em;
     letter-spacing: 6px; } }
 
 @media (max-width: 1000px) {
@@ -238,16 +238,13 @@ body {
 header {
   position: fixed;
   z-index: 1;
-  left: 0;
-  bottom: 30px;
-  width: 100%; }
-  header h1 {
-    position: absolute;
-    bottom: 0; }
-    header h1:first-child {
-      right: 61%; }
-    header h1:last-child {
-      left: 41%; }
+  left: 40%;
+  bottom: 0;
+  width: 60%;
+  padding: 20px;
+  text-align: right;
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.15) 0, rgba(255, 255, 255, 0.15) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.15) 0, rgba(255, 255, 255, 0.15) 70%, rgba(255, 255, 255, 0) 100%); }
 
 section {
   width: 40%;
@@ -256,14 +253,6 @@ section {
   background: #fff; }
   section h2 {
     margin-bottom: 25px; }
-  section .contentCover {
-    width: 40%;
-    height: 170px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0) 100%); }
 
 /* =================================
 ====================================
@@ -278,18 +267,14 @@ Media Queries */
     background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px -100px no-repeat;
     background-size: 205%;
     background-attachment: fixed; }
-  header h1:first-child {
-    right: 56%; }
-  header h1:last-child {
-    left: 46%; }
+  header {
+    left: 45%;
+    width: 55%; }
   section {
     width: 45%;
     padding: 35px 3.5% 130px 3.5%; }
     section h2 {
-      text-align: center; }
-    section .contentCover {
-      width: 45%;
-      height: 140px; } }
+      text-align: center; } }
 
 @media (max-width: 770px) {
   body {
@@ -311,17 +296,11 @@ Media Queries */
     padding: 4% 0 3% 0;
     background: rgba(255, 255, 255, 0.41);
     text-align: center; }
-    header h1 {
-      position: static;
-      display: inline-block;
-      width: auto; }
   section {
     width: 100%;
     padding: 40px 20% 10px 20%; }
     section h2 {
-      margin-bottom: 20px; }
-    section .contentCover {
-      display: none; } }
+      margin-bottom: 20px; } }
 
 @media (max-width: 450px) {
   body {
