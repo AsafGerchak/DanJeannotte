@@ -230,9 +230,8 @@ Media Queries */
     letter-spacing: 2.5px; } }
 
 body {
-  background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") 150px top no-repeat;
-  background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") 150px top no-repeat;
-  background-size: 120%;
+  background: url("../images/newHero.jpg") 100% 5% no-repeat;
+  background-size: 65%;
   background-attachment: fixed; }
 
 header {
@@ -263,10 +262,9 @@ Media Queries */
 
 @media (max-width: 1000px) {
   body {
-    background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px -100px no-repeat;
-    background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px -100px no-repeat;
-    background-size: 205%;
-    background-attachment: fixed; }
+    background: url("../images/newHero.jpg") 180% 0 no-repeat;
+    background-attachment: fixed;
+    background-size: 80%; }
   header {
     left: 45%;
     width: 55%; }
@@ -278,18 +276,16 @@ Media Queries */
 
 @media (max-width: 770px) {
   body {
-    background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px top no-repeat;
-    background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") -230px top no-repeat;
-    background-size: 205%;
-    background-attachment: fixed; } }
+    background: url("../images/newHero.jpg") 200px 0 no-repeat;
+    background-attachment: fixed;
+    background-size: 100%; } }
 
 @media (max-width: 650px) {
   body {
-    background: -webkit-linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") center top no-repeat;
-    background: linear-gradient(rgba(200, 200, 200, 0.1) 65%, rgba(200, 200, 200, 0.3) 75%), url("../images/hero03.jpg") center top no-repeat;
-    background-size: contain;
+    background: url("../images/newHero.jpg") center -30px no-repeat;
     background-attachment: fixed;
-    padding-top: 45%; }
+    background-size: 100%;
+    padding-top: 80%; }
   header {
     position: static;
     width: 100%;
@@ -303,8 +299,6 @@ Media Queries */
       margin-bottom: 20px; } }
 
 @media (max-width: 450px) {
-  body {
-    padding-top: 40%; }
   header {
     margin: 4% 0 2% 0;
     padding: 3% 0; }
