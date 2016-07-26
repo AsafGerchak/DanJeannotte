@@ -10,9 +10,9 @@ header {
 	left: 40%;
 	bottom: 0;
 	width: 60%;
-	padding: 20px;
+	padding: 50px 20px 20px 20px;
 	text-align: right;
-	background: linear-gradient(to top,rgba(255,255,255,0.15) 0,rgba(255,255,255,0.15) 70%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to top,rgba(255,255,255,0.25) 0,rgba(255,255,255,0.25) 70%,rgba(255,255,255,0) 100%);
 
 	// h1 {
 	// 	position: absolute;
@@ -59,6 +59,12 @@ Media Queries */
 
 @media (max-width: 1250px) {
 
+	body {
+		background: url("../images/newHero.jpg") 100% 5% no-repeat;
+		background-size: 75%;
+		background-attachment: fixed;
+	}
+
 	section {
 		padding: 50px 4% 160px 4%;
 	}
@@ -69,9 +75,9 @@ Media Queries */
 @media (max-width: 1000px) {
 
 	body {
-		background: url("../images/newHero.jpg") 180% 0 no-repeat;
+		background: url("../images/newHero.jpg") 500% 0 no-repeat;
     background-attachment: fixed;
-    background-size: 80%;
+    background-size: 95%;
 	}
 
 	header {
@@ -109,9 +115,9 @@ Media Queries */
 @media (max-width: 770px) {
 
 	body {
-    background: url("../images/newHero.jpg") 200px 0 no-repeat;
+    background: url("../images/newHero.jpg") 150px 0 no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 115%;
 	}
 
 } // @media (max-width: 770px)
